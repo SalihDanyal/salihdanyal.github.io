@@ -1,12 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<head>Merhaba</head>
-	<script type="text/javascript"></script>
-</body>
-</html>
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Salih Emre Danyal</title>
+    <!-- Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+ 	<link rel="stylesheet" type="text/css" href="global.css">
+ 	<link rel="stylesheet" type="text/css" href="main.css">
+ 	<link rel="stylesheet" type="text/css" media="(max-width:768px)"href="mobile.css">
+
+ </head>
+ <body>
+    
+    <header class="koyuyesil">
+        <div class="contanier">
+         <nav id="navbar">
+            <h1 class="heading-small">Salih Emre Danyal</h1>
+            <ul>
+                <li> <a href="#home">Ana Sayfa</a>  </li>
+                <li> <a href="#Hakkımda">Hakkımda</a>  </li>
+                <li> <a href="#kurs">Kurslar</a>  </li>
+                <li> <a href="#contact">İletişim</a>  </li>
+            </ul>
+        </nav>   
+        </div>
+    </header>
+    <section id="home">
+        
+        <img src="foto.jpeg" width="300px" alt="Salih Emre Danyal">
+        <div class="name text-center">
+            <h2 class="heading-big">Salih Emre Danyal</h2>
+           <p>Software Developer| Yazılımcı Salih</p> 
+        </div>
+        <a href="#kurs" class="buton buton-değişken">Kurslara Git</a>
+    </section>
+
+    
+    <section id="Hakkımda" >
+        <img src="adam.png" alt="adam" class="adam ">
+        <div id="yazıBölümü">
+        <h3 class="koyuyesil heading-big text-center item" >Hakkımda</h3>
+        
+            <p class="koyuyesil dersver item">Python Dersleri verilir. Derslerimiz Zoom üzerinden yapılır. Her düzey için derslerimiz mevcutur. Alanında uzman kişiler çalışmaktadır. Daha fazla bilgi için lütfen iletişime geçiniz.</p>
+        </div>
+    </section>
+    <footer id="contact" class="koyuyesil">
+        <div class="contact-form"> 
+        <form>
+            <h4 class="text-center heading-big">İletişim</h4>
+            <div class="form-grup">
+                <label for="name">İsim</label>
+                <input 
+                 type="text" 
+                 class="form-control"
+                 name="name" 
+                 id="name"
+                 placeholder="İsim"/>
+
+            </div>
+            <div class="form-grup">
+                <label for="email">Email</label>
+                <input 
+                 type="text" 
+                 class="form-control"
+                 name="email" 
+                 id="email"
+                 placeholder="E-mail"/>
+            </div>
+            <div class="form-grup">
+                <label for="message">Mesaj</label>
+                <textarea 
+                name="message"
+                id="message"
+                class="form-control" 
+                rows="5" 
+                placeholder="Mesajınız..."
+                ></textarea>
+                
+            </div>
+            <button type="submit" class="buton buton-değişken">Gönder</button>
+         </form>
+         <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a> </li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a> </li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+        </ul>
+    </footer>
+
+ </body>
+ </html>
+
+           <!-- --> 

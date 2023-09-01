@@ -1,0 +1,65 @@
+/*Text */
+.text-center{
+	text-align: center;
+}
+.heading-small{
+	font-size: 1.25rem;
+}
+.heading-midium{
+	font-size: 1.5rem;
+}
+.heading-big{
+	font-size: 1.75rem;
+}
+
+
+
+/*Color*/
+
+.koyuyesil{
+	background: #C1E132;
+}
+.acikyesil{
+	background: #C1E132;
+}
+.prgrfrng{
+	background: #C1E132;
+}
+
+/*Buton*/
+.buton{
+	 margin-top: 1.20rem;
+	padding: 0.8rem 3rem;
+	border-radius: 10px;
+	letter-spacing: 0.75px;
+}
+.buton-değişken{
+	background: #a0d43f;
+}
+.buton-değişken:hover{
+	color: #a0d43f;
+	background: #fff;
+	border:0.70 solid #a0d43f;
+}
+/*Forms*/
+.form-group{
+	padding: 0.25rem 0;
+}
+.form-group label{
+	display: block;
+}
+
+.form-control{
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1.25rem;
+	resize: none;
+	border-radius: 7.5px;
+}
+/*Container*/
+
+.contanier{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
